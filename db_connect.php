@@ -4,11 +4,19 @@
 	# Curated by https://github.com/successful-fella
 
 	# TODO: Require this file in your php files, add settings below and use $db variable
+<<<<<<< HEAD
 	$driver = "postgre"; # Check ci_database/drives folder for list of drivers
 	$username = "gds";
 	$password = "TheVibes@33";
 	$host = "influx.mycreditpolicy.com";
 	$database_name = "gds";
+=======
+	$driver = "mysqli"; # Check ci_database/drives folder for list of drivers
+	$username = "root";
+	$password = "";
+	$host = "localhost";
+	$database_name = "test";
+>>>>>>> parent of 1a9bc64... Database Cred Update
 	$development_mode = true; // false for production (no errors)
 
 	if($development_mode) {
