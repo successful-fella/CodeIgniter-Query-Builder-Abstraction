@@ -4,7 +4,7 @@
 	# Curated by https://github.com/successful-fella
 
 	# TODO: Require this file in your php files, add settings below and use $db variable
-	$driver = "mysqli"; # Check ci_database/drives folder for list of drivers
+	$driver = "postgre"; # Check ci_database/drives folder for list of drivers
 	$username = "gds";
 	$password = "TheVibes@33";
 	$host = "influx.mycreditpolicy.com";
@@ -29,5 +29,6 @@
 	require_once('database/DB.php');
 	function log_message() {}
 	function show_error() {}
+	function pg_connect() {}
 	$conn = "$driver://$username:$password@$host/$database_name";
 	$db = DB($conn, true);
