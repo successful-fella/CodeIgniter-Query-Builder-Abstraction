@@ -10,13 +10,6 @@
 	$password = "TheVibes@33";
 	$host = "influx.mycreditpolicy.com";
 	$database_name = "gds";
-=======
-	$driver = "mysqli"; # Check ci_database/drives folder for list of drivers
-	$username = "root";
-	$password = "";
-	$host = "localhost";
-	$database_name = "test";
->>>>>>> parent of 1a9bc64... Database Cred Update
 	$development_mode = true; // false for production (no errors)
 
 	if($development_mode) {
@@ -37,6 +30,5 @@
 	require_once('database/DB.php');
 	function log_message() {}
 	function show_error() {}
-	function pg_connect() {}
 	$conn = "$driver://$username:$password@$host/$database_name";
 	$db = DB($conn, true);
