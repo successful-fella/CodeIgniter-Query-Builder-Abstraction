@@ -4,7 +4,7 @@
 	# Curated by https://github.com/successful-fella
 
 	# TODO: Require this file in your php files, add settings below and use $db variable
-<<<<<<< HEAD
+
 	$driver = "mysqli"; # Check ci_database/drives folder for list of drivers
 	$username = "";
 	$password = "";
